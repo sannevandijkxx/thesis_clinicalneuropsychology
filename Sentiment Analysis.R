@@ -3,7 +3,7 @@ library(tibble)
 library(dplyr)
 
 Sentiment <- read_delim(
-  "~/Desktop/RL&DM/Sentiment.csv", 
+  "~/Desktop/RL&DM/sent_analysis.csv", 
   delim = ";", escape_double = FALSE, trim_ws = TRUE
 )
 
