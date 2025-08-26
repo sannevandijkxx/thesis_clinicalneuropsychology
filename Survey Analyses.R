@@ -6,7 +6,7 @@ library(dplyr)
 library(stringr)
 
 ## Download the dataset
-DTD_raw <- read_csv("~/Desktop/DTD.csv")
+DTD_raw <- read_csv("~/Desktop/survey_analyses.csv")
 
 ## Remove columns and rows that are not needed
 DTD_clean <- DTD_raw %>% select(-StartDate, -EndDate, 
