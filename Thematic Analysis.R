@@ -1,5 +1,5 @@
 ### Load the dataset
-frequencies <- read.csv("frequey.csv", header = TRUE, sep = ";")
+frequencies <- read.csv("them_analysis.csv", header = TRUE, sep = ";")
 head(frequencies)
 
 ## set the first column as rownames
