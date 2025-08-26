@@ -216,9 +216,6 @@ library(scales)
 
 # Make groups for tables
 Analysesdf <- Analysesdf %>%
-  mutate(group = factor(group, levels = c("Neither", "DTD only", "Aphantasia only", "Both")))
-
-Analysesdf <- Analysesdf %>%
   mutate(
     group = case_when(
       DTD_only == 1 & Aph_only == 0 ~ "DTD only",
